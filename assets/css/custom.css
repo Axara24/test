@@ -1,0 +1,23 @@
+.topbanner{max-width:720px;}
+@media only all and (max-width: 100rem) {
+
+.hidden-phone{
+  display: none !important;
+}
+	/*.topbanner{max-width:600px;}*/
+}
+
+@media only all and (max-width: 47.938rem) {
+.hidden-phone {
+  display: none !important;
+}
+.topbanner{display:none;}
+}
+
+.floatright{float:right;}
+.floatleft{float:left;}
+.center{text-align:center;}
+.kt-widget-6 .kt-widget6__tab .kt-widget-6__items .kt-widget-6__item .kt-widget-6__item-pic>img{width:150px;}
+
+.kt-grid-nav .kt-grid-nav__item{width:33.33%;}
+

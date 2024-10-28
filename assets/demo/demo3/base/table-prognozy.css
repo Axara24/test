@@ -1,0 +1,73 @@
+/******************************************/
+/******************************************/
+/******************************************/
+.green	{color: #006400;}
+.blue	{color: #0000FF;}
+.red	{color: #FF4500;}
+.yellow	{color: #ffa500;}
+.yellow1 {background-color: #FFFFCC;}
+.purple{color: #68040C}
+.prognoz-main	{
+	width: 100%;	
+	text-align: center;
+	font-family: tahoma;
+	/*line-height: 25px;*/
+	padding: 0px;
+	margin: 0px;
+}	
+.prognoz_main td a{line-height: 0.3}
+.prognoz-main td,
+.prognoz-main th	{
+	border: 1px #dddddd solid;	
+	padding: 0px;
+	
+}
+
+.sport_icons	{
+	width: 18px;
+	margin-top: -3px;
+}
+.bk_icons	{
+	width: 50px;
+	max-width: 50px!important;
+
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+th.bk_date	{
+	width: 68px;	
+}
+th.bk_time	{
+	width: 50px;	
+}
+th.bk_bk	{
+	width: 45px;	
+}
+th.bk_sport	{
+	width: 30px;	
+}
+th.bk_itog	{
+	width: 67px;	
+}
+.bk_itig	{
+	line-height: 19px;
+	width: 65px;
+	text-align: center;
+	color: #FFFFFF;
+	display: block; float: left;
+	
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold; 
+	/*
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	*/
+}
+	
+/*.bk_itig.itog_ 	{ background: #E6D431; border: 1px solid #E6D431; color:#red;}*/
+.bk_itig.itog_nenachalsya, .bk_itig.itog_  { background: #4789cf; border: 1px solid #3a7cc2; }
+.bk_itig.itog_verniy { background: #63b94c; border: 1px solid #55af38; }
+.bk_itig.itog_neverniy { background: #d5554b; border: 1px solid #d04135; }
+.bk_itig.itog_vozvrat { background: #d7d7d7; border: 1px solid #cccccc; color: #333333; }
